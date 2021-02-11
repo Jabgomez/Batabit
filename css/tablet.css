@@ -1,0 +1,27 @@
+.exchange_tables {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.product_cards {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.plans_slider {
+    margin: 0 auto;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.plans_slider::after {
+    content: "";
+    flex: 0 0 0;
+}
+  
+.slider_card:first-of-type {
+      margin-left: 0;
+}
